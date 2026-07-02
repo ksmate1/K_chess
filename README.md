@@ -31,7 +31,7 @@ Created by **K-S-mate1**
 ## Example
 
 ```python
-from kchess import Game
+from k_chess.game import Game
 game = Game()
 
 game.move("e2 e4")
