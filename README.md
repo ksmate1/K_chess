@@ -27,3 +27,12 @@ All rights reserved.
 ## Author
 
 Created by **K-S-mate1**
+
+## Example
+
+```python
+from k_chess import ChessBoard
+
+board = ChessBoard()
+print(board)
+```
