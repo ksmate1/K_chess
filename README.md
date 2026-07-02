@@ -31,8 +31,13 @@ Created by **K-S-mate1**
 ## Example
 
 ```python
-from k_chess import ChessBoard
+from kchess import Game
+game = Game()
 
-board = ChessBoard()
-print(board)
+game.move("e2 e4")
+
+print(game.board)
+
+if game.is_check():
+  print("Check!")
 ```
