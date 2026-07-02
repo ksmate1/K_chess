@@ -1,4 +1,5 @@
-# K_chess
-This is a chess library made for fun!
+# K_Chess
 
-Feel free to use all of my code without copyright!
+A chess library written in Python and made for fun.
+
+Feel free to use, modify, and learn from the code.
