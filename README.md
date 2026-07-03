@@ -43,7 +43,7 @@ from k_chess.move import Move
 
 game = Game()
 
-game.move(Move("e2", "e4"))
+game.board.move(Move("e2", "e4"))
 
 print(game.board)
 
