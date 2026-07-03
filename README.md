@@ -40,15 +40,13 @@ Feel free to explore the code, modify it, and use it as a learning resource.
 ```python
 from k_chess.game import Game
 from k_chess.move import Move
+from k_chess.values import *
 
 game = Game()
 
-game.board.move(Move("e2", "e4"))
+game.board.move(Move("e2", "e4", MOVE_NOTATION))
 
 print(game.board)
-
-if game.is_check():
-    print("Check!")
 ```
 
 ## Current Status
