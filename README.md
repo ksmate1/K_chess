@@ -39,10 +39,11 @@ Feel free to explore the code, modify it, and use it as a learning resource.
 
 ```python
 from k_chess.game import Game
+from k_chess.move import Move
 
 game = Game()
 
-game.move("e2 e4")
+game.move(Move("e2", "e4"))
 
 print(game.board)
 
