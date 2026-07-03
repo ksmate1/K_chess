@@ -2,36 +2,44 @@
 
 A chess library written in Python and made for fun.
 
-K_Chess is a custom-built chess engine/library written from scratch in Python.
+K_Chess is a custom-built chess library written entirely from scratch in Python.
 
-The goal is to implement all standard chess rules in a clean, simple, and understandable way.
+The goal of the project is to implement the complete rules of chess in a clean, simple, and understandable way while keeping the code easy to read, maintain, and learn from.
+
+Feel free to explore the code, modify it, and use it as a learning resource.
 
 ## Features
 
+### Implemented
+
 - Chess board representation
-- All standard chess pieces
-- Legal move generation (in progress)
-- Check and checkmate detection (in progress)
-- Castling, en passant, and promotion (planned)
+- Standard chess starting position
+- Piece objects
+- Turn tracking
 
-## Current Status
+### In Progress
 
-🚧 Work in progress.
+- Legal move generation
+- Move validation
+- Check detection
+- Checkmate detection
 
-The project is under active development and not yet feature complete.
+### Planned
 
-## License
-
-All rights reserved.
-
-## Author
-
-Created by **K-S-mate1**
+- Castling
+- En passant
+- Pawn promotion
+- Stalemate detection
+- Threefold repetition
+- Fifty-move rule
+- FEN support
+- PGN support
 
 ## Example
 
 ```python
 from k_chess.game import Game
+
 game = Game()
 
 game.move("e2 e4")
@@ -39,5 +47,16 @@ game.move("e2 e4")
 print(game.board)
 
 if game.is_check():
-  print("Check!")
+    print("Check!")
 ```
+
+## Current Status
+
+🚧 Work in progress.
+
+K_Chess is currently under active development and is not feature complete.
+
+## Author
+
+Created by **K-S-mate1**
+``
